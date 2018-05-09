@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E1F8CCE20A2CEFE00B95C86 /* RNYXZAlitop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F8CCD20A2CEFE00B95C86 /* RNYXZAlitop.m */; };
+		5E1F8CCF20A2CEFE00B95C86 /* RNYXZAlitop.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E1F8CCC20A2CEFE00B95C86 /* RNYXZAlitop.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E1F8CC720A2CEFE00B95C86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5E1F8CCF20A2CEFE00B95C86 /* RNYXZAlitop.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E1F8CC920A2CEFE00B95C86 /* libRNYXZAlitop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNYXZAlitop.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1F8CCC20A2CEFE00B95C86 /* RNYXZAlitop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNYXZAlitop.h; sourceTree = "<group>"; };
+		5E1F8CCD20A2CEFE00B95C86 /* RNYXZAlitop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNYXZAlitop.m; sourceTree = "<group>"; };
+		5E1F8CD620A2CF3E00B95C86 /* AlibabaAuthSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlibabaAuthSDK.bundle; sourceTree = "<group>"; };
+		5E1F8CD720A2CF3E00B95C86 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		5E1F8CD820A2CF3E00B95C86 /* ALPLinkPartnerSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ALPLinkPartnerSDK.bundle; sourceTree = "<group>"; };
+		5E1F8CD920A2CF3E00B95C86 /* NBResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NBResource.bundle; sourceTree = "<group>"; };
+		5E1F8CDB20A2CF3E00B95C86 /* AlibabaAuthExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibabaAuthExt.framework; sourceTree = "<group>"; };
+		5E1F8CDC20A2CF3E00B95C86 /* AlibabaAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibabaAuthSDK.framework; sourceTree = "<group>"; };
+		5E1F8CDD20A2CF3E00B95C86 /* AlibcTradeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcTradeSDK.framework; sourceTree = "<group>"; };
+		5E1F8CDE20A2CF3E00B95C86 /* AlibcLinkPartnerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcLinkPartnerSDK.framework; sourceTree = "<group>"; };
+		5E1F8CDF20A2CF3E00B95C86 /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SecurityGuardSDK.framework; sourceTree = "<group>"; };
+		5E1F8CE020A2CF3E00B95C86 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
+		5E1F8CE120A2CF3E00B95C86 /* AlibcTradeBiz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcTradeBiz.framework; sourceTree = "<group>"; };
+		5E1F8CE220A2CF3E00B95C86 /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGMain.framework; sourceTree = "<group>"; };
+		5E1F8CE320A2CF3E00B95C86 /* AlibcTradeCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcTradeCommon.framework; sourceTree = "<group>"; };
+		5E1F8CE420A2CF3E00B95C86 /* TUnionTradeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TUnionTradeSDK.framework; sourceTree = "<group>"; };
+		5E1F8CE520A2CF3E00B95C86 /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTMini.framework; sourceTree = "<group>"; };
+		5E1F8CE620A2CF3E00B95C86 /* OpenMtopSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenMtopSDK.framework; sourceTree = "<group>"; };
+		5E1F8CE720A2CF3E00B95C86 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		5E1F8CE820A2CF3E00B95C86 /* SGSecurityBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGSecurityBody.framework; sourceTree = "<group>"; };
+		5E1F8CE920A2CF3E00B95C86 /* OpenMtopExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenMtopExt.framework; sourceTree = "<group>"; };
+		5E1F8CEB20A2CF3E00B95C86 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E1F8CC620A2CEFE00B95C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E1F8CC020A2CEFE00B95C86 = {
+			isa = PBXGroup;
+			children = (
+				5E1F8CCB20A2CEFE00B95C86 /* RNYXZAlitop */,
+				5E1F8CCA20A2CEFE00B95C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E1F8CCA20A2CEFE00B95C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E1F8CC920A2CEFE00B95C86 /* libRNYXZAlitop.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E1F8CCB20A2CEFE00B95C86 /* RNYXZAlitop */ = {
+			isa = PBXGroup;
+			children = (
+				5E1F8CEA20A2CF3E00B95C86 /* config */,
+				5E1F8CDA20A2CF3E00B95C86 /* Frameworks */,
+				5E1F8CD520A2CF3E00B95C86 /* Resources */,
+				5E1F8CCC20A2CEFE00B95C86 /* RNYXZAlitop.h */,
+				5E1F8CCD20A2CEFE00B95C86 /* RNYXZAlitop.m */,
+			);
+			path = RNYXZAlitop;
+			sourceTree = "<group>";
+		};
+		5E1F8CD520A2CF3E00B95C86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E1F8CD620A2CF3E00B95C86 /* AlibabaAuthSDK.bundle */,
+				5E1F8CD720A2CF3E00B95C86 /* AlipaySDK.bundle */,
+				5E1F8CD820A2CF3E00B95C86 /* ALPLinkPartnerSDK.bundle */,
+				5E1F8CD920A2CF3E00B95C86 /* NBResource.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E1F8CDA20A2CF3E00B95C86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E1F8CDB20A2CF3E00B95C86 /* AlibabaAuthExt.framework */,
+				5E1F8CDC20A2CF3E00B95C86 /* AlibabaAuthSDK.framework */,
+				5E1F8CDD20A2CF3E00B95C86 /* AlibcTradeSDK.framework */,
+				5E1F8CDE20A2CF3E00B95C86 /* AlibcLinkPartnerSDK.framework */,
+				5E1F8CDF20A2CF3E00B95C86 /* SecurityGuardSDK.framework */,
+				5E1F8CE020A2CF3E00B95C86 /* UTDID.framework */,
+				5E1F8CE120A2CF3E00B95C86 /* AlibcTradeBiz.framework */,
+				5E1F8CE220A2CF3E00B95C86 /* SGMain.framework */,
+				5E1F8CE320A2CF3E00B95C86 /* AlibcTradeCommon.framework */,
+				5E1F8CE420A2CF3E00B95C86 /* TUnionTradeSDK.framework */,
+				5E1F8CE520A2CF3E00B95C86 /* UTMini.framework */,
+				5E1F8CE620A2CF3E00B95C86 /* OpenMtopSDK.framework */,
+				5E1F8CE720A2CF3E00B95C86 /* AlipaySDK.framework */,
+				5E1F8CE820A2CF3E00B95C86 /* SGSecurityBody.framework */,
+				5E1F8CE920A2CF3E00B95C86 /* OpenMtopExt.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E1F8CEA20A2CF3E00B95C86 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				5E1F8CEB20A2CF3E00B95C86 /* yw_1222.jpg */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E1F8D0220A2D22A00B95C86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E1F8CC820A2CEFE00B95C86 /* RNYXZAlitop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1F8CD220A2CEFE00B95C86 /* Build configuration list for PBXNativeTarget "RNYXZAlitop" */;
+			buildPhases = (
+				5E1F8CC520A2CEFE00B95C86 /* Sources */,
+				5E1F8CC620A2CEFE00B95C86 /* Frameworks */,
+				5E1F8CC720A2CEFE00B95C86 /* CopyFiles */,
+				5E1F8D0220A2D22A00B95C86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNYXZAlitop;
+			productName = RNYXZAlitop;
+			productReference = 5E1F8CC920A2CEFE00B95C86 /* libRNYXZAlitop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E1F8CC120A2CEFE00B95C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "王发果";
+				TargetAttributes = {
+					5E1F8CC820A2CEFE00B95C86 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 5E1F8CC420A2CEFE00B95C86 /* Build configuration list for PBXProject "RNYxzAliTop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E1F8CC020A2CEFE00B95C86;
+			productRefGroup = 5E1F8CCA20A2CEFE00B95C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E1F8CC820A2CEFE00B95C86 /* RNYXZAlitop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E1F8CC520A2CEFE00B95C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1F8CCE20A2CEFE00B95C86 /* RNYXZAlitop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E1F8CD020A2CEFE00B95C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E1F8CD120A2CEFE00B95C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E1F8CD320A2CEFE00B95C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLN2BPSMCB;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNYXZAlitop/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E1F8CD420A2CEFE00B95C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLN2BPSMCB;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNYXZAlitop/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E1F8CC420A2CEFE00B95C86 /* Build configuration list for PBXProject "RNYxzAliTop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1F8CD020A2CEFE00B95C86 /* Debug */,
+				5E1F8CD120A2CEFE00B95C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1F8CD220A2CEFE00B95C86 /* Build configuration list for PBXNativeTarget "RNYXZAlitop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1F8CD320A2CEFE00B95C86 /* Debug */,
+				5E1F8CD420A2CEFE00B95C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E1F8CC120A2CEFE00B95C86 /* Project object */;
+}
